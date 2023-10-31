@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-lgxa
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0016-tenant/ci1t-43256-0016-app/devfile-sample-lgxa@sha256:b141caa5b7cf378cb287349b428958b3ecebeb6e923725ab4762ca8803591164
         name: my-nodejs
         ports:
         - containerPort: 3001
