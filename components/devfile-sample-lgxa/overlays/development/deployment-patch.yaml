@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-lgxa
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0016-tenant/ci1t-43256-0016-app/devfile-sample-lgxa@sha256:b141caa5b7cf378cb287349b428958b3ecebeb6e923725ab4762ca8803591164
+        name: my-nodejs
+        resources: {}
+status: {}
